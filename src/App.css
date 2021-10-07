@@ -1,5 +1,58 @@
 .App {
   text-align: center;
+  background-image: url("./images/sea-background-video-conferencing_52683-43441\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
+  height: 100vh;
+}
+
+.purple-box {
+  /* position: absolute; */
+  width: 418px;
+  height: 105px;
+  margin-left: 171px;
+  top: 0px;
+  background: linear-gradient(
+    90.09deg,
+    rgba(84, 83, 164, 0.84) 14.58%,
+    #8d72c8 82.91%
+  );
+  border-radius: 0px 0px 25px 25px;
+
+  font-family: Wavehaus;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.white-box-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 59px;
+  max-height: 80%;
+
+  /* display: grid;
+  grid-auto-rows: 50px; */
+}
+
+.white-box {
+  width: 45%;
+  height: 32px;
+
+  background: #fcfcfc;
+  border: 1px solid rgba(252, 252, 252, 0.65);
+  border-radius: 9px;
+}
+.white-box:hover {
+  width: 45%;
+  height: 32px;
+  background: #fcfcfc98;
+  border: 1px solid rgba(252, 252, 252, 0.65);
+  border-radius: 9px;
 }
 
 .App-logo {
@@ -13,16 +66,15 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
